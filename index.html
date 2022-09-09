@@ -6,12 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="name"></div>
-    <div class="weather-type"></div>
-    <div class="temp"></div>
-    <div class="feelslike"></div>
+ 
+    <div class="img-container">
+        <img src="/img/clear-sky.png">
+        <div class="temp-container">
+            <div class="temp">94<span>°F</span></div>
+            <div class="feelslike">Feel's like 93<span>°F</span></div>
+            </div>
+            <div class="city-container">
+            <div class="name">Gilbert</div>
+            <p class="weather-type">Clear Sky</p>
+            <!-- <p class="timezone">9:00 PM</p> -->
+            </div>
+    </div>
+    <!-- <div class="name">Gilbert</div>
+    <div class="weather-type">Clear Sky</div>
+
+    <div class="feelslike">Feels like 94f</div> -->
+
+
     <div class="search-container">
         <label for="search">
             <input type="text" id="search" placeholder="City name..">
@@ -19,6 +35,5 @@
         </label>
     </div>
     <script src="/app.js"></script>
-    <script src="https://kit.fontawesome.com/62e204e4f8.js" crossorigin="anonymous"></script>
 </body>
 </html>

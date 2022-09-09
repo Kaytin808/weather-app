@@ -4,5 +4,59 @@
 }
 html {
     height: 100%;
-    background-color: gray;
+    background-color: rgb(43, 42, 42);
+    color: whitesmoke;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.img-container {
+    display: flex;
+    margin: 50px 55px;
+
+    align-items: center;
+
+}
+.img-container .temp {
+    font-size: 55px;
+}
+.img-container .temp span {
+    font-size: 30px;
+}
+.img-container .feelslike {
+    font-size: 20px;
+}
+.temp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 13px;
+}
+img {
+    height: 200px;
+}
+.name {
+    display: flex;
+}
+.city-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 4rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+.search-container {
+    position: relative;
+    left: 70px;
 }
